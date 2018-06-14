@@ -1,0 +1,7 @@
+---
+applications:
+ - name: cf-demo
+   env:
+     GOVERSION: go1.10
+     GOPACKAGENAME: github.com/niclasgeiger/cf-demo
+
