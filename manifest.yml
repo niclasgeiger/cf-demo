@@ -1,7 +1,10 @@
 ---
 applications:
  - name: cf-demo
+   health-check-type: process
    env:
      GOVERSION: go1.10
      GOPACKAGENAME: github.com/niclasgeiger/cf-demo
+   services:
+   - neo4j-demo
 
